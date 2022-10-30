@@ -138,15 +138,13 @@ GEM
     matrix (0.4.2)
     method_source (1.0.0)
     mini_mime (1.1.2)
-    mini_portile2 (2.8.0)
     minitest (5.16.3)
     money (6.16.0)
       i18n (>= 0.6.4, <= 2)
     msgpack (1.6.0)
     multipart-post (2.2.3)
     nio4r (2.5.8)
-    nokogiri (1.13.9)
-      mini_portile2 (~> 2.8.0)
+    nokogiri (1.13.9-x86_64-linux)
       racc (~> 1.4)
     orm_adapter (0.5.0)
     pg (1.4.4)
@@ -222,8 +220,7 @@ GEM
       actionpack (>= 5.2)
       activesupport (>= 5.2)
       sprockets (>= 3.0.0)
-    sqlite3 (1.5.3)
-      mini_portile2 (~> 2.8.0)
+    sqlite3 (1.5.3-x86_64-linux)
     thor (1.2.1)
     thread_safe (0.3.6)
     tilt (2.0.11)
@@ -255,7 +252,7 @@ GEM
     zeitwerk (2.6.1)
 
 PLATFORMS
-  ruby
+  x86_64-linux
 
 DEPENDENCIES
   bootsnap (>= 1.4.2)
@@ -285,4 +282,4 @@ RUBY VERSION
    ruby 2.6.6p146
 
 BUNDLED WITH
-   1.17.3
+   2.3.24
