@@ -31,6 +31,10 @@ gem "font-awesome-rails"
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.4.2', require: false
 
+group :production do
+  gem 'pg', '~> 1.4.3'
+end
+
 group :development, :test do
   gem 'sqlite3', '~> 1.3.6'
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
@@ -48,9 +52,7 @@ group :development do
   gem 'spring-watcher-listen', '~> 2.0.0'
 end
 
-group :production do
-  gem 'pg', '~> 1.4.3'
-end
+
 
 group :test do
   # Adds support for Capybara system testing and selenium driver
